@@ -16,8 +16,6 @@
         <form action='content.php' method='POST'>
           <label for='userName'>User Name:</label> 
           <input type='text' name='userName' />
-          <label for='age'>Age:</label> 
-          <input type='text' name='age' />
           <br><br>
           <input type='submit' value='Login' />
         </form>

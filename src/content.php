@@ -34,7 +34,7 @@ if(session_status() == PHP_SESSION_ACTIVE){
   
   $_SESSION['visits']++;
   echo "Hi $_SESSION[userName], you have visited this page $_SESSION[visits] times. \n";
-  echo "To log out click <a href='content.php?action=logOut'>here</a>.";
+  echo 'To log out click <a href='content.php?action=logOut'>here</a>.';
 }
 else{
   "You need to log in. Login <a href='login.php'>here</a>.";
