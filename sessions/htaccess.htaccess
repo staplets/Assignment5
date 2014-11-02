@@ -1,0 +1,2 @@
+php_value sessions.save_handler files
+php_value sessions.save_path "/nfs/stak/students/s/staplets/sessions"
